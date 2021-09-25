@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <title>To DO List</title>
+</head>
+<body>
+    
+    <div id="print" style="background-color:teal;">
+        <h1 style="text-align: center;">To Do List</h1>
+        <button id="btn" onclick="ajax()" style="display: block; margin-right: auto;margin-left: auto;">ToDo Lisit</button>
+        <button id="btn" onclick="logout()" style="display: block; margin-right: auto;margin-left: auto;">Logout</button>
+ 
+        <div class="row-lg">
+           <img id="pic" class="img-fluid" src="./bg1.jpg" alt="" class="responsive" style=" align-self: center; margin-right: auto;margin-left: auto;display: block;">
+          </div>
+          
+         <table class="table table-striped table-dark" style="width: 80vw; height: 80vh; padding: 20px;margin: 20px; align-self: baseline; margin-left: auto;margin-right: auto; text-align: center; ">
+           <thead id="thead">
+  
+           </thead>
+           <tbody id="body">
+  
+           </tbody>
+  
+         </table>
+  
+  
+  </div>
+    
+  <script src="./todoajax.js"></script>
+  
+  
+        
+    
+</body>
+</html>
